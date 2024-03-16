@@ -14,7 +14,7 @@
 	$cars = ["Ford", "Volvo", "BMW", "Honda"];
 
 	// Using a variable to storage the size of an array we get the same behaviour
-	// Best performance than for using sizeof in each loop iteration
+	// Better performance than for loop that use sizeof() function in each loop
 	$sizeCars = sizeof($cars);
 
 	for( $i=0; $i < $sizeCars; $i++ ) {
